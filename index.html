@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="Imagens/Agenda.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Página inicial</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Compromissos.html">Agenda</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Agenda de Compromisso</h2>
+        <form id="Formulario">
+            <div class="divs">
+                <label for="Oque">Compromisso: </label>
+                <input type="text" id="Oque" name="Oque" placeholder="Atualizar documento">
+            </div>
+            <div class="divs">
+                <label for="Onde">Local: </label>
+                <input type="text" id="Onde" name="Onde" placeholder="Cartorio">
+            </div>
+            <div class="divs">
+                <label for="horas">Horario: </label>
+                <input type="time" id="horas" name="horas">
+            </div>
+            <div class="divs">
+                <label for="horas">Selecione a data:</label>
+                <input type="date" id="Data" name="Data">
+            </div>
+            <button type="button" onclick="Enviar()">Inserir Dados</button>
+        </form>
+        <p id="Msg">Os Dados salvos é encaminhado para AGENDA.</p>
+    </main>
+    <script src="Script.js"></script>
+</body>
+</html>

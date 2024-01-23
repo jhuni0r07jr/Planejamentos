@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    background: #353b3d;
+    font-family: open_sans;
+}
+
+@font-face{
+    font-size: 50px;
+    font-family: open_sans;
+    src: url(FonteDaPagina/NeverMindRounded-ExtraBold.woff);
+}
+
+header{
+    width: 100%;
+}
+
+header a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    width: 50%;
+    height: 65px;
+    margin: auto;
+    display: flex;
+    color: #353b3d;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    background: #ffdd00;
+    justify-content: center;
+}
+
+form{
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.divs{
+    width: 100%;
+    height: 18%;
+    margin: auto;
+    display: flex;
+    margin-top: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divs input, select{
+    width: 40%;
+    height: 30px;
+    margin-left: 12px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.divs label{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    font-size: 90%;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+button{
+    width: 130px;
+    height: 25%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: large;
+    border-radius: 7px;
+    background-color: #343636;
+    border-top: solid 1px #ffdd00;
+    border-left: solid 1px #ffdd00;
+    border-right: solid 5px #ffdd00;
+    border-bottom: solid 5px #ffdd00;
+}
+
+                                    /*   TABELA    */
+table{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10%;
+    border: 1px solid black;
+}
+
+thead{
+    width: 100%;
+    height: 10%;
+    color: #353b3d;
+    background: #ffdd00;
+
+}
+
+tbody{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+tbody td{
+    color: white;
+    border: 1px solid black;
+}
+
+tbody button{
+    width: 100%;
+    background: transparent;
+    border-top: solid 1px transparent;
+    border-left: solid 1px transparent;
+    border-right: solid 5px transparent;
+    border-bottom: solid 5px transparent;
+}
+
+tbody img{
+    width: 40px;
+    height: 40px;
+}
+
+#Msg{
+    width: 30%;
+    margin: auto;
+    font-size: 75%;
+    margin-top: 10%;
+    color: #ffdd00;
+    align-items: center;
+}
